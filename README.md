@@ -1,10 +1,10 @@
-# 📈 LSTM Stock Price Predictor
+# LSTM Stock Price Predictor
 
 A beginner-friendly deep learning project that uses an **LSTM (Long Short-Term Memory)** neural network to predict stock closing prices based on historical data. Built while learning time-series forecasting and deep learning fundamentals.
 
 ---
 
-## 🧠 What I Learned
+## What I Learned
 
 - How to preprocess financial time-series data
 - Why scaling inputs to `[0, 1]` helps neural networks train better
@@ -15,7 +15,7 @@ A beginner-friendly deep learning project that uses an **LSTM (Long Short-Term M
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 project/
@@ -33,14 +33,14 @@ project/
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 ### 1. Prerequisites
 
 - **Python 3.13.4** — [Download here](https://www.python.org/downloads/)
 - `pip` (comes with Python)
 
-> ⚠️ **Note:** TensorFlow does not yet officially support Python 3.13.
+> **Note:** TensorFlow does not yet officially support Python 3.13.
 > If you run into installation issues, consider using **Python 3.11** or **3.12** instead.
 
 ### 2. Clone the repository
@@ -68,7 +68,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Usage
+## Usage
 
 Make sure your dataset is placed at `Dataset/AAPL.csv`, then run:
 
@@ -88,7 +88,7 @@ The script will:
 
 ---
 
-## 📊 Dataset Format
+## Dataset Format
 
 The CSV file should have at least these columns:
 
@@ -101,7 +101,7 @@ Dollar signs and commas in the price column are handled automatically.
 
 ---
 
-## 📉 Model Architecture
+## Model Architecture
 
 ```
 Input → LSTM(50) → Dropout(0.2)
@@ -116,7 +116,7 @@ Input → LSTM(50) → Dropout(0.2)
 
 ---
 
-## 📐 Evaluation Metrics
+## Evaluation Metrics
 
 | Metric | Description |
 |--------|-------------|
@@ -126,7 +126,7 @@ Input → LSTM(50) → Dropout(0.2)
 
 ---
 
-## 🛠️ Dependencies
+## Dependencies
 
 See `requirements.txt` for the full list. Key libraries:
 
@@ -138,7 +138,7 @@ See `requirements.txt` for the full list. Key libraries:
 
 ---
 
-## 📌 Notes
+## Notes
 
 - This project is for **learning purposes** and should not be used for real financial decisions.
 - Stock prices are influenced by many factors a simple LSTM cannot capture.
@@ -146,6 +146,6 @@ See `requirements.txt` for the full list. Key libraries:
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 Built while learning deep learning and time-series forecasting with Keras and TensorFlow.
