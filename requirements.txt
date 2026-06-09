@@ -1,0 +1,14 @@
+# Requirements for LSTM Stock Price Predictor
+# Python 3.13.4
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# ⚠️  TensorFlow does not officially support Python 3.13 yet.
+#     If you run into issues, use Python 3.11 or 3.12 instead.
+
+numpy>=2.0.0
+pandas>=2.2.0
+scikit-learn>=1.5.0
+matplotlib>=3.9.0
+tensorflow>=2.17.0
