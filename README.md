@@ -46,8 +46,8 @@ project/
 ### 2. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/lstm-stock-predictor.git
-cd lstm-stock-predictor
+git clone https://github.com/itiz-ksh/LSTM
+cd LSTM
 ```
 
 ### 3. Create a virtual environment
